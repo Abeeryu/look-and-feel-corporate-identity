@@ -132,12 +132,11 @@ div.scroll-container {
 }
 
 div.scroll-container img {
-    /* padding: 10px; */
+    padding: 10px;
     width: 300px;
     margin: 10px;
     height: auto;
     border: 3px solid #c8c7c7;
-    
 }
 
 h2 {
