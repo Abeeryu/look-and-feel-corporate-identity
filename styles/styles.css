@@ -25,12 +25,35 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 1em;
 }
 
 .hero {
     display: flex;
     justify-content:center;
     align-items: center;
+}
+
+.button {
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: 'proxima-nova', sans-serif;
+    margin-bottom: 20px;
+}
+
+.button a {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background-color: #F7A100;
+    margin: 5px 5px auto;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 5px;
 }
 
 
@@ -42,6 +65,7 @@ h1 {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    
 }
   
 /* Style for dropdown content */
@@ -52,6 +76,7 @@ h1 {
     min-width: 85px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    font-family: 'proxima-nova', sans-serif;
 }
   
 /* Style for each content div */
@@ -136,14 +161,32 @@ div.scroll-container img {
     width: 200px;
     margin: 10px;
     height: auto;
+    object-fit: cover;
+    border-radius: 1.5em;
     /* border: 2px solid #c8c7c7; */
 }
 
+.box {
+    border-radius: 1.5em;
+    box-shadow: 1px black;
+    border: 1px solid black;
+    padding: 0.1em;
+    /* margin-bottom: 0.5em; */
+    display: flex;
+    margin-left: 1em;
+    margin-bottom: 1em;
+ }
+
+.info {
+    margin-top: 20px;
+}
+
 h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'proxima-nova', sans-serif;
     margin: 10px;
-    padding-top: 15px;
+    padding: auto;
+    padding-right: 1em;
 }
 
 p {
@@ -152,4 +195,5 @@ p {
     margin-top: 10px;
     margin: 10px;
     padding: auto;
+    padding-right: 1em;
 }
