@@ -31,6 +31,7 @@ Link naar Github Pages
 
 ## Bronnen
 
+https://github.com/Abeeryu/look-and-feel-corporate-identity
 
 https://abeeryu.github.io/look-and-feel-corporate-identity/
 ## Licentie
