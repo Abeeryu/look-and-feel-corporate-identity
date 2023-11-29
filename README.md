@@ -17,7 +17,7 @@ Het doel van deze opdracht is om een favoriete pagina te redesignen.
 1. Als gebruiker wil ik aangepaste beoordelingspunten kunnen creëren, zodat ik een betere controle heb over de kwaliteiten van het object dat ik waardeer.
 2. Wij willen aangepaste lijsten kunnen maken die vervolgens met andere gebruikers kunnen worden gedeeld.
 
-We gebruiken de brandguide van Funda. https://brand.funda.nl/d/d9gw4zTPqYFU/brand-guide?#/merk/brand-principles-p3495843
+We gebruiken de styleguide van Funda dat wij hebben gemaakt: https://akikosophia.github.io/look-and-feel-living-styleguide/
 
 ### Figma voorbeelden
 
