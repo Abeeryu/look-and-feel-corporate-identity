@@ -51,6 +51,12 @@ https://github.com/Abeeryu/look-and-feel-corporate-identity/wiki
 
 https://abeeryu.github.io/look-and-feel-corporate-identity/
 
+https://github.com/Akikosophia/look-and-feel-corporate-identity
+
+https://github.com/Akikosophia/look-and-feel-corporate-identity/wiki
+
+https://akikosophia.github.io/look-and-feel-corporate-identity/
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
