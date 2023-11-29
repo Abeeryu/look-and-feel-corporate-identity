@@ -29,11 +29,31 @@ Link naar Github Pages
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
+Wij hebben met Html en Css gewerkt.
+
+Wij hebben slider gemaakt met foto's en texts erin.
+
+![Screenshot 2023-11-29 112330](https://github.com/Abeeryu/look-and-feel-corporate-identity/assets/144008500/2fe65c5a-5c58-4490-8d7a-677c669f3803)
+
+Voor Css hebben wij verschillende elementen gebruiken zoals display: flex en media querie.
+Wij hebben het voor verschillende apparaten gemaakt, voor mobile, tablet en descktop.
+
+![Screenshot 2023-11-29 112723](https://github.com/Abeeryu/look-and-feel-corporate-identity/assets/144008500/30c1b100-b7c1-46e3-bd63-2905331ed207)
+
+![a856bce6-8b8f-4a22-81d7-7808c49508e8](https://github.com/Abeeryu/look-and-feel-corporate-identity/assets/144008500/9495b010-cb8f-4b06-9cbf-4ad751cb241f)
+
+
+
+
+
 ## Bronnen
 
 https://github.com/Abeeryu/look-and-feel-corporate-identity
 
+https://github.com/Abeeryu/look-and-feel-corporate-identity/wiki
+
 https://abeeryu.github.io/look-and-feel-corporate-identity/
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
