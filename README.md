@@ -12,19 +12,20 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 Het doel van deze opdracht is om een favoriete pagina te redesignen.
 
-We hebben twee user stories gekozen
+### We hebben twee user stories gekozen
 
 1. Als gebruiker wil ik aangepaste beoordelingspunten kunnen creëren, zodat ik een betere controle heb over de kwaliteiten van het object dat ik waardeer.
 2. Wij willen aangepaste lijsten kunnen maken die vervolgens met andere gebruikers kunnen worden gedeeld.
 
 We gebruiken de brandguide van Funda. https://brand.funda.nl/d/d9gw4zTPqYFU/brand-guide?#/merk/brand-principles-p3495843
 
-Figma voorbeelden
+### Figma voorbeelden
 
 ![Screenshot 2023-11-21 213607](https://github.com/Abeeryu/look-and-feel-corporate-identity/assets/144008500/4c2aaa21-8a66-4d93-b2cc-85a89d410c50)
 
-Link naar Github Pages
+### Link naar Github Pages
 
+https://github.com/Abeeryu/look-and-feel-corporate-identity
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
@@ -41,10 +42,6 @@ Wij hebben het voor verschillende apparaten gemaakt, voor mobile, tablet en desc
 ![Screenshot 2023-11-29 112723](https://github.com/Abeeryu/look-and-feel-corporate-identity/assets/144008500/30c1b100-b7c1-46e3-bd63-2905331ed207)
 
 ![a856bce6-8b8f-4a22-81d7-7808c49508e8](https://github.com/Abeeryu/look-and-feel-corporate-identity/assets/144008500/9495b010-cb8f-4b06-9cbf-4ad751cb241f)
-
-
-
-
 
 ## Bronnen
 
