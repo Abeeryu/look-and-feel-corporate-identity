@@ -4,18 +4,45 @@
     padding: 0;
 }
 
+:root {
+    --primarycolor: #F7A100;
+    --secondarycolor: white;
+    --primary-text-color: #333333;
+    --secundary-text-color: white;
+    --hover-color: rgba(222,145,1,255);
+    --slider-background-color: #e6f2f7;
+    --main-font: 'proxima-nova', sans-serif;
+    --box-shadow-color: rgb(0 0 0 / 0.2);
+    --large-text: 30px;
+    --medium-text: 18px;
+    --body-text: 16px;
+}
+
+h1, h2, p, div.scroll-container img {
+    margin: 10px;
+    padding: auto;
+    padding-right: 1em;
+}
+
+.button, .dropdown-content, menu li, h1, h2, p{
+    font-family: var(--main-font);
+}
+
+/* Logo Styles */
+
 .logo {
     height: auto;
     width: 150px;
 }
+
+/* Header Styles */
 
 header {
     margin-bottom: 50px;
 }
 
 h1 {
-    font-size: 30px;
-    font-family: 'proxima-nova', sans-serif;
+    font-size: var(--large-text);
     /* margin: 650px; */
     margin-bottom: 30px;
     margin-top: 30px;
@@ -34,11 +61,13 @@ h1 {
     align-items: center;
 }
 
+/* Button Styles */
+
 .button {
     padding-left: 5px;
     display: flex;
     justify-content: center;
-    font-family: 'proxima-nova', sans-serif;
+    font-family: var(--main-font);
     margin-bottom: 20px;
 }
 
@@ -46,9 +75,9 @@ h1 {
     width: 100px;
     height: 50px;
     display: inline-block;
-    background-color: #F7A100;
+    background-color: var(--primarycolor);
     margin: 5px 5px auto;
-    color: white;
+    color: var(--secondarycolor);
     text-align: center;
     line-height: 50px;
     /* border-radius: 10px; */
@@ -56,35 +85,29 @@ h1 {
     padding-left: 5px;
 }
 
-.button a:hover {
-    background-color: rgba(222,145,1,255);
-}
-
-.button-list a:hover {
-    background-color: rgba(222,145,1,255)
+.button a:hover, .button-list a:hover {
+    background-color: var(--hover-color);
 }
 
 
 /* Style for dropdown button */
 .dropbtn {
-    background-color: orange;
-    color: white;
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
     padding: 10px;
-    font-size: 16px;
+    font-size: var(--body-text);
     border: none;
     cursor: pointer;
-    
 }
   
 /* Style for dropdown content */
 .dropdown-content {
     display: none; /* Hidden by default */
     position: absolute;
-    background-color: #ffffff;
+    background-color: var(--secondarycolor);
     min-width: 85px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow-color);
     z-index: 1;
-    font-family: 'proxima-nova', sans-serif;
 }
   
 /* Style for each content div */
@@ -94,7 +117,7 @@ h1 {
   
 /* Highlight dropdown options on hover */
 .dropdown-content div:hover {
-    background-color: #eaeaea;
+    background-color: var(--secondarycolor);
 }
   
 /* Show the dropdown menu on hover */
@@ -102,14 +125,10 @@ h1 {
     display: block;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: white;
-    }
-  }
+/* Navigation Styles */
 
 nav {
-    background: orange;
+    background: var(--primarycolor);
     margin: 20px;
     display: flex;
     align-items: center;
@@ -122,14 +141,13 @@ ul {
 }
 
 .menu li {
-    font-size: 16px;
+    font-size: var(--body-text);
     padding: 15px 5px;
-    font-family: 'proxima-nova', sans-serif;
 }
 
 .menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--secondarycolor);
 }
 
 .menu {
@@ -152,11 +170,13 @@ ul {
     height: 200px;
     display: flex;
     object-fit: cover;
-    border: 2px solid white;
+    border: 2px solid var(--secondarycolor);
 }
 
+/* Scroll Container Styles */
+
 div.scroll-container {
-    background-color: #e6f2f7;
+    background-color: var(--slider-background-color);
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -167,17 +187,18 @@ div.scroll-container {
 div.scroll-container img {
     padding: 10px;
     width: 200px;
-    margin: 10px;
     height: auto;
     object-fit: cover;
     /* border-radius: 1.5em; */
     /* border: 2px solid #c8c7c7; */
 }
 
+/* Box Styles */
+
 .box {
     /* border-radius: 1.5em; */
-    box-shadow: 1px black;
-    border: 1px solid black;
+    box-shadow: 1px var(--box-shadow-color);
+    border: 1px solid var(--box-shadow-color);
     padding: 0.1em;
     /* margin-bottom: 0.5em; */
     display: flex;
@@ -192,24 +213,18 @@ div.scroll-container img {
 }
 
 h2 {
-    font-size: 18px;
-    font-family: 'proxima-nova', sans-serif;
-    margin: 10px;
-    padding: auto;
+    font-size: var(--medium-text);
     padding-right: 1em;
 }
 
 p {
-    font-size: 16px;
-    font-family: 'proxima-nova', sans-serif;
+    font-size: var(--body-text);
     margin-top: 10px;
-    margin: 10px;
-    padding: auto;
     padding-right: 1em;
 }
 
 @media only screen and (max-width: 600px) {
     div.scroll-container {
-      background-color: white;
+      background-color: var(--secondarycolor);
     }
   }
