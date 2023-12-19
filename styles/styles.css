@@ -80,7 +80,7 @@ h1 {
     color: var(--secondarycolor);
     text-align: center;
     line-height: 50px;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     text-decoration: none;
     padding-left: 5px;
 }
@@ -189,14 +189,14 @@ div.scroll-container img {
     width: 200px;
     height: auto;
     object-fit: cover;
-    /* border-radius: 1.5em; */
-    /* border: 2px solid #c8c7c7; */
+    border-radius: 1.5em;
+    /* border: 2px solid #c8c7c7;  */
 }
 
 /* Box Styles */
 
 .box {
-    /* border-radius: 1.5em; */
+    border-radius: 1.5em;
     box-shadow: 1px var(--box-shadow-color);
     border: 1px solid var(--box-shadow-color);
     padding: 0.1em;
@@ -228,3 +228,46 @@ p {
       background-color: var(--secondarycolor);
     }
   }
+
+  body {
+    background-color:var(--secondarycolor) ;
+    font-family: "Proxima Nova";
+    display: flex;
+    flex-direction: column;
+    
+}
+
+  article {
+    margin: 0.5em;
+}
+
+ .house {
+    border-radius: 1.5em;
+    box-shadow: var(--box-shadow-color);
+    padding: 0.5em;
+    margin-bottom: 1em;
+ }
+ 
+ .img-house {
+    width: 288px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 1.5em;
+ }
+
+.info-house  {
+    list-style: none;
+    text-align: left;
+    padding-left: 0.5em;
+    margin-top: -17px;
+    margin-bottom: -2px;
+    padding-top: 0.2em;
+    
+}
+
+
+
+
+
+
+
